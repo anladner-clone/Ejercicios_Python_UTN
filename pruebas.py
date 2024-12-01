@@ -7,3 +7,4 @@ def buscar_elemento(lista, elemento):
 
 lista = [1, 2, 3, 4, 5, 6]
 print(buscar_elemento(lista, 4))  # True
+
