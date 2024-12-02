@@ -1,9 +1,10 @@
 
-def imprimir_elementos(lista):
-    for elemento in lista:
-        print(elemento)
+def pares(lista):
+    for i in lista:
+        for j in lista:
+            print(f"({i}, {j})")
 
-imprimir_elementos([1, 2, 3, 4, 5])
+pares([1, 2, 3])
 
 
 
