@@ -1,9 +1,9 @@
 
-lista = [10, 20, 30, 40, 50]
-print(lista[2])  # 30
+def imprimir_elementos(lista):
+    for elemento in lista:
+        print(elemento)
 
-
-
+imprimir_elementos([1, 2, 3, 4, 5])
 
 
 
