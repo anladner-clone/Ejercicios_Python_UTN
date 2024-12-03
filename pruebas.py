@@ -1,9 +1,7 @@
 
-def suma_lista(lista):
-    suma = 0
+def multiplicar_por_cinco(lista):
     for i in lista:
-        suma += i
-    return suma
+        print(i * 5)
 
 
 .
