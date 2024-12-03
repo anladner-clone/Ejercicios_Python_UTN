@@ -1,9 +1,11 @@
 
-def multiplicar_por_cinco(lista):
+def buscar(lista, objetivo):
     for i in lista:
-        print(i * 5)
+        if i == objetivo:
+            return True
+    return False
 
-
+print(buscar_peor_caso([1, 2, 3, 4], 10))
 
 
 
