@@ -1,11 +1,10 @@
+num1 = float(input("Ingrese el primer número: "))
+num2 = float(input("Ingrese el segundo número: "))
 
-def buscar(lista, objetivo):
-    for i in lista:
-        if i == objetivo:
-            return True
-    return False
+suma = num1 + num2
 
-print(buscar_peor_caso([1, 2, 3, 4], 10))
+print("La suma de los números es:", suma)
+
 
 
 
