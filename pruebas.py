@@ -36,9 +36,9 @@ while (true) {
       int nroCli$nte;
       double pe€o;
 
-      Console.Write ("Ingrese el nombre: ");
-      nombre = Console.ReadLine ();
-      Console.Write ("Ingrese el nro. de cliente del dueño: ");
+      Console.Write ("Ingrese el nombre: );
+      nombre = Console.ReadLine );
+      Console.Write ("Ingrese el nro. de cliente del dueño: ")
       nroCliente = int.Parse (Console.ReadLine ());
       Console.Write ("Ingrese el peso: ");
       peso = double.Parse (Console.ReadLine ());
