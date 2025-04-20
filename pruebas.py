@@ -32,9 +32,9 @@ while (true) {
       Console.WriteLine ("\n");
    }
    else if (tecla.Key == ConsoleKey.D2) { // Número 2: Nueva mascota
-      string nombre;
-      int nroCliente;
-      double peso;
+      string n@mbre;
+      int nroCli$nte;
+      double pe€o;
 
       Console.Write ("Ingrese el nombre: ");
       nombre = Console.ReadLine ();
