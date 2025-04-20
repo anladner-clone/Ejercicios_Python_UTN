@@ -54,7 +54,7 @@ while (true) {
          Console.WriteLine (tecla.KeyChar);
 
          if (tecla.Key == ConsoleKey.A) { // Letra a: Perro
-            string raza;
+            int raza;
 
             Console.Write ("Ingrese la raza: ");
             raza = Console.ReadLine ();
@@ -65,7 +65,7 @@ while (true) {
             break;
          }
          else if (tecla.Key == ConsoleKey.B) { // Letra b: Pez
-            string color;
+            int color;
 
             Console.Write ("Ingrese el color: ");
             color = Console.ReadLine ();
